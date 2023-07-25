@@ -8,10 +8,10 @@ class ActionButton extends StatelessWidget {
 
   const ActionButton(
       {Key? key,
-        required this.text,
-        required this.onPressed,
-        this.color,
-        this.textColor})
+      required this.text,
+      required this.onPressed,
+      this.color,
+      this.textColor})
       : super(key: key);
 
   @override
@@ -25,7 +25,7 @@ class ActionButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: color,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(8),
           ),
         ),
         onPressed: onPressed,
